@@ -1,0 +1,107 @@
+body {
+  background-color: #fbb03b;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+  position: fixed;
+  top: 23px;
+  right: 23px;
+  height: 60px;
+  width: 60px;
+}
+
+#main {
+  width: 500px;
+  height: 430px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 500px) {
+  #main {
+    width: 90vw;
+  }
+}
+
+h5 {
+  text-align: center;
+  color: #23846e;
+}
+
+@media screen and (max-width: 500px) {
+  h5 {
+    text-align: right;
+    margin-right: 10px;
+  }
+}
+
+.inputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.input {
+  width: 500px;
+  height: 60px;
+  margin: 10px 10px;
+}
+
+#check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #23846e;
+}
+
+@media screen and (max-width: 500px) {
+  #check {
+    margin-left: 10px;
+    display: block;
+  }
+}
+
+#btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+button {
+  background-color: #39b69f;
+  border: 1px solid white;
+  font-size: 13px;
+  color: white;
+  width: 250px;
+  height: 60px;
+  margin-top: 30px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(251, 176, 59);
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+}
+.navbar.navbar-1 .navbar-toggler-icon {
+	background-image: url("https://mdbcdn.b-cdn.net/img/svg/hamburger6.svg?color=000");
+	position: fixed;
+  top: 23px;
+  right: 23px;
+	height: 60px;
+	width: 60px;
+}
+#main {
+	width: 500px;
+	height: 430px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	@media screen and (max-width: 500px) {
+		width: 90vw;
+  }
+}
+h5 {
+	text-align: center;
+	color: rgb(35, 132, 110);
+	@media screen and (max-width: 500px) {
+		text-align: right;
+		margin-right: 10px;
+  }
+}
+.inputs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+.input {
+	width: 500px;
+	height: 60px;
+	margin: 10px 10px;
+}
+#check {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(35, 132, 110);
+	@media screen and (max-width: 500px) {
+		margin-left: 10px;
+		display: block;
+  }
+}
+#btn {
+	display: flex;
+	justify-content: center;
+}
+button {
+	background-color: rgb(57, 182, 159);
+	border: 1px solid white;
+	font-size: 13px;
+	color: white;
+	width: 250px;
+	height: 60px;
+	margin-top: 30px;
+}
